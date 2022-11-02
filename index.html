@@ -38,14 +38,14 @@
         /* || VARIABLE */
         :root {
             --PADDING: 0.5rem;
-            --BGCOLOR: black;
-            --TEXTCOLOR: aliceblue;
+            --BGCOLOR: aliceblue;
+            --TEXTCOLOR: black;
         }
 
         /* || GENERAL STYLING */
 
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             background-color: var(--BGCOLOR);
             color: var(--TEXTCOLOR);
             text-align: justify;
@@ -70,14 +70,21 @@
         }
 
         .logo {
-            max-width: 120px;
+            max-width: 180px;
             height: auto;
             padding-left: var(--PADDING);
             padding-right: var(--PADDING);
         }
 
+
+
         #electrothon_logo {
-            max-width: 64px;
+            max-width: 80px;
+        }
+
+        #moonshot {
+            max-width: 300px;
+            height: auto;
         }
 
         /* || FOOTER */
@@ -112,7 +119,8 @@
         }
 
         #mail-salutation {
-            padding-bottom: 1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         #mail-closing {
@@ -125,6 +133,9 @@
     <header>
         <a href="https://specnith.com/" target="_blank"><img src="img/spec_logo.png" alt="SPEC Logo" width="662"
                 height="373" class="logo" id="spec_logo"></a>
+
+        <img src="img/moonshot.png" alt="Electrothon 5.0" width="2480" height="3508" id="moonshot">
+
         <a href="https://electrothon2k23.netlify.app/" target="_blank"><img src="img/electrothon_logo.png"
                 alt="Electrothon Logo" width="4588" height="3856" class="logo" id="electrothon_logo"></a>
     </header>
