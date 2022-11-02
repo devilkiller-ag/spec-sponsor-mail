@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Society for Promotion of Electronics Culture">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail to Sponsor</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        /* || RESET */
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        img {
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            color: aliceblue;
+        }
+
+        a:is(:hover, :focus) {
+            font-style: italic;
+            text-decoration: line-through;
+            color: rgb(204, 204, 204);
+        }
+
+        /* || VARIABLE */
+        :root {
+            --PADDING: 0.5rem;
+            --BGCOLOR: black;
+            --TEXTCOLOR: aliceblue;
+        }
+
+        /* || GENERAL STYLING */
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--BGCOLOR);
+            color: var(--TEXTCOLOR);
+            letter-spacing: 1px;
+            line-height: 1.25rem;
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3%;
+        }
+
+        /* || HEADER */
+
+        header {
+            width: 98%;
+            border-bottom: var(--PADDING);
+        }
+
+        #logo {
+            max-width: 120px;
+            height: auto;
+        }
+
+        /* || FOOTER */
+
+        hr {
+            height: 1px;
+            background-color: var(--TEXTCOLOR);
+            width: 96%;
+            margin: auto;
+            margin: var(--PADDING);
+        }
+
+        #address {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .address-para {
+            padding-top: var(--PADDING);
+            white-space: nowrap;
+        }
+
+        #socials {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .social-icon {
+            padding: var(--PADDING);
+        }
+
+        /* || MAIN */
+        #mail-salutation,
+        .mail-body-para,
+        .mail-closing {
+            padding: var(--PADDING);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="https://specnith.com/" target="_blank"><img src="img/spec_logo.png" alt="SPEC Logo" width="662"
+                height="373" id="logo"></a>
+    </header>
+    <main>
+        <div id="mail-salutation">
+            <p>Dear Sponsor,</p>
+        </div>
+        <div class="mail-body">
+            <p class="mail-body-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium in eum architecto modi fugiat
+                eius, laudantium eos vero veniam quia molestias dolorum harum aut unde delectus aspernatur voluptate
+                eligendi quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, soluta?
+            </p>
+            <p class="mail-body-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium in eum architecto modi fugiat
+                eius, laudantium eos vero veniam quia molestias dolorum harum aut unde delectus aspernatur voluptate
+                eligendi quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, cum?
+            </p>
+        </div>
+
+        <div class="closing">
+            <p class="mail-closing">Thank you</p>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <div id="address">
+            <p class="address-para"><a href="https://specnith.com/" target="_blank">Society for Promotion of Electronics
+                    Culture</a></p>
+            <p class="address-para"><a href="https://nith.ac.in/" target="_blank">National Institute of Technology
+                    Hamirpur</a></p>
+        </div>
+        <ul id="socials">
+            <li class="social-icon"><a href="https://www.linkedin.com/company/spec-nith/about/" target="_blank"><img
+                        src="/img/icons8-linkedin-48.png" alt="SPEC LinkedIn Profile" width="48" height="48"></a></li>
+            <li class="social-icon"><a href="https://twitter.com/SPEC__NITH" target="_blank"><img
+                        src="img/icons8-twitter-48.png" alt="SPEC Twitter Profile" width="48" height="48"></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/s.p.e.c_nith/?hl=en" target="_blank"><img
+                        src="img/icons8-instagram-48.png" alt="SPEC instagram Profile" width="48" height="48"></a></li>
+            <li class="social-icon"><a href="https://www.facebook.com/spec.ece" target="_blank"><img
+                        src="img/icons8-facebook-48.png" alt="SPEC facebook Profile" width="48" height="48"></a></li>
+            <li class="social-icon"><a href="https://www.youtube.com/channel/UC-VOIz2JkmTwN5KF9vZgf_g"
+                    target="_blank"><img src="img/icons8-youtube-48.png" alt="SPEC YouTube Channel" width="48"
+                        height="48"></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
